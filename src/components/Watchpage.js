@@ -82,7 +82,7 @@ const Comment = (props) => {
 
 const CommentsList = (props) => {
       return  props.comments.map( (comment) => 
-                  <div className='py-1'>
+                  <div className='py-1 mt-3'>
                     <Comment data={comment}/>
                     <div className='pl-5 border-l-2'>
                       <CommentsList comments={comment.replies} /> 
@@ -93,8 +93,8 @@ const CommentsList = (props) => {
 
 const CommentsContainer = () => {
   return (
-    <div>
-       <h1>Comments</h1>
+    <div className='mt-[2.75rem]'>
+       <h1 className='font-bold'>Comments</h1>
        <CommentsList comments={commentsData} />
     </div>
   )

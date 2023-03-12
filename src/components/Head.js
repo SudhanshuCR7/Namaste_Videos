@@ -64,10 +64,7 @@ const Head = () => {
         </div>
 
         <div className='col-span-1 px-2 py-1 m-2'>
-            <img 
-            className='w-6 h-6 m-2'
-            alt='user-icon' 
-            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpQ2pdRFQNGZRLDnCdtiYBUZs1PvaxiAZDbA&usqp=CAU'/>
+            <img className='w-6 h-6 m-2' alt='user-icon' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpQ2pdRFQNGZRLDnCdtiYBUZs1PvaxiAZDbA&usqp=CAU'/>
         </div>
     </div>
     
