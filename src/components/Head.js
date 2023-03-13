@@ -38,7 +38,7 @@ const Head = () => {
             className='w-8 h-16 cursor-pointer'
             alt='menu-icon' 
             src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpvNiiXyHfPY2uDE89LX9bdxESyAfQEzl1Zw&usqp=CAU'/>
-            <img className='w-32 h-20 px-2 pb-2' alt='logo' src={download2} />
+            <img className='shrink-0 w-32 h-20 px-2 pb-2' alt='logo' src={download2} />
         </div>
 
         <div className='col-span-10 px-32 py-2 m-2'>

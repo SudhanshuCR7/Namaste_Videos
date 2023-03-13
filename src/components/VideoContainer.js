@@ -18,12 +18,6 @@ const VideoContainer = () => {
     getVideo();
   }, [])
 
-  
-  // return ( 
-  //   <div className='flex flex-wrap'>
-  //     {videos.map( (video) =><Link to={"/watch?v=" + video.id}> <VideoCard key={video.id} info={video}/> </Link> ) }
-  //   </div>
-  // )
   return (videos.length === 0) ? 
       <Shimmer/> : 
       <div className='flex flex-wrap'>
